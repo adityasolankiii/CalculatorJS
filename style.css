@@ -1,0 +1,139 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.calculator {
+    width: 400px;
+    height: 620px;
+    box-shadow: 4px 4px 30px rgb(0, 0, 0, 0.3);
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #000;
+    padding: 1rem;
+}
+
+form input {
+    width: 100%;
+    height: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: #000;
+    padding: 1rem;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    outline: none;
+    pointer-events: none;
+
+}
+
+button {
+    font-size: 20px;
+    height: 80px;
+    width: 80px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 2px;
+    flex: 0 0 22%;
+    margin: 5px 0px;
+    border-radius: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn-black {
+    color: white;
+    background-color: rgb(27, 27, 27);
+}
+
+.btn-yellow {
+    color: white;
+    background-color: rgb(255, 191, 0);
+}
+
+.btn-grey {
+    color: black;
+    background-color: rgb(166, 166, 166);
+} */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    overflow: hidden;
+    width: 400px;
+    height: 620px;
+    box-shadow: 4px 4px 30px black;
+    border-radius: 25px;
+    background-color: #000;
+    padding: 1rem;
+}
+
+form input{
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    padding: 1rem;
+    outline: none;
+    border: 1px solid black;
+    pointer-events: none;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn{
+    height: 80px;
+    width: 80px;
+    margin: 6px 2px;
+    border-radius: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-yellow{
+    color: white;
+    background-color: orange;
+}
+.btn-black{
+    color: white;
+    background-color: rgb(25, 25, 25);
+}
+.btn-grey{
+    color: rgb(0, 0, 0);
+    background-color: rgb(162, 162, 162);
+}
